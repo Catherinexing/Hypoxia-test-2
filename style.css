@@ -6511,12 +6511,12 @@ article p a {
 }
 
 .cover_content h1 {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
   line-height: 1.1;
   margin-bottom: 0;
   text-transform: uppercase;
-  text-shadow: none;
+  text-shadow: 2px 2px grey;
   font-weight: 700;
   margin-top: 0;
   font-size: 1.6em
@@ -6528,7 +6528,7 @@ article p a {
   line-height: 1;
   margin-bottom: 0;
   text-transform: uppercase;
-  text-shadow: none;
+  text-shadow: 2px 2px grey;
   font-weight: 300;
   margin-top: 0;
   font-size: 2.4em
@@ -6538,13 +6538,14 @@ article p a {
 .byline {
   text-align: center;
   font-size: 20px;
+    text-shadow: 2px 2px grey;
   -webkit-margin-after: 0;
   margin-top: 1em
 }
 
 .byline a, .research a {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  color: #37588a;
+  color: #fbe550;
   font-weight: 700;
   background-image: none
 }
@@ -7364,8 +7365,4 @@ figcaption{
 }
 
 figcaption :first-child
-}
-
-#dek{
-  font-size: 18px;
 }

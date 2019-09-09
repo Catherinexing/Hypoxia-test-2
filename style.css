@@ -6562,7 +6562,8 @@ article p a {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   font-size: 20px;
-  line-height: 1
+  line-height: 1;
+    text-shadow: 2px 2px grey;
 }
 
 .cover_dek {

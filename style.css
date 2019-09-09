@@ -47,7 +47,7 @@ p{
   padding-left: 25px;
   padding-right: 0;
   overflow: hidden;
-  background: 0 0
+  /* background: 0 0 */
 }
 .s1 {
   background-color: black;
@@ -6532,11 +6532,12 @@ article p a {
   font-weight: 300;
   margin-top: 0;
   font-size: 2.4em
+  color: white;
 }
 
 .byline {
   text-align: center;
-  font-size: .9em;
+  font-size: 20px;
   -webkit-margin-after: 0;
   margin-top: 1em
 }
@@ -6559,14 +6560,14 @@ article p a {
 .time {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  font-size: .9em;
+  font-size: 20px;
   line-height: 1
 }
 
 .cover_dek {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 26px;
   line-height: 1.2;
   margin: 0;
   padding: 0;
@@ -6622,7 +6623,7 @@ article p a {
 }
 
 body {
-  color: black;
+  /* color: black; */
 }
 
 article {
@@ -6744,7 +6745,7 @@ section {
   margin-top: -3em;
   margin-bottom: -3em;
   text-align: center;
-  color: #000
+  color: white;
 }
 
 .intro {

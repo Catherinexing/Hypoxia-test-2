@@ -7256,11 +7256,11 @@ margin-left: 35%;
 /* .s4{
   height: 900px;
 } */
-.quote{
+/* .quote{
   font-size: 25px;
   color:orange;
   font-weight: 900;
-}
+} */
 .text-above-img{
   position: absolute;
   top: 50%;
@@ -7360,4 +7360,11 @@ figcaption{
 }
 .caption-center{
   display: block;
+}
+
+figcaption :first-child
+}
+
+#dek{
+  font-size: 18px;
 }

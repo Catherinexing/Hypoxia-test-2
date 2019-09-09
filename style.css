@@ -7304,11 +7304,7 @@ max-width: 700px;
 height: auto;
 
 }
-figcaption{
- text-align: center;
- color:grey;
- display: block;
-}
+
 
 .start-text{
   font-weight: 1200px;
@@ -7354,4 +7350,14 @@ p:last-child {
 
 .para-sep{
   margin-top: 20px;
+}
+
+figcaption{
+ text-align: center;
+ color:grey;
+ display: block;
+ margin: auto;
+}
+.caption-center{
+  display: block;
 }

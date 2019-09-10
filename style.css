@@ -7373,3 +7373,6 @@ figcaption{
 .caption-center{
   text-align: center;
 }
+html{
+  width:100%;
+}

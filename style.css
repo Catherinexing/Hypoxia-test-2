@@ -33,7 +33,7 @@ header {
 footer{
   background-color: #0e202b;
 }
-
+s
 p{
   font-size:16px;
 }
@@ -44,7 +44,7 @@ p{
 }
 .cover{
   height: 100vh;
-  padding-left: 25px;
+  padding-left: 0;
   padding-right: 0;
   overflow: hidden;
   /* background: 0 0 */
@@ -155,6 +155,7 @@ margin: 0 auto;
 .section{
   background-color: white;
   display: block;
+  width:100%;
   /* height:100vh; */
 
 
@@ -6532,7 +6533,7 @@ article p a {
   text-shadow: 2px 2px grey;
   font-weight: 700;
   margin-top: 0;
-  font-size: 1.6em
+
 }
 
 .cover_content h1 strong {
@@ -6711,7 +6712,7 @@ video::-webkit-media-controls-start-playback-button {
 section {
 
   padding-left: 25px;
-  padding-right: 0;
+  padding-right: 25px;
   /* overflow: hidden; */
   background-color: white;
 }
@@ -7077,9 +7078,7 @@ section {
     font-size: 18px
   }
 
-  .cover_content h1 {
-    font-size: 2em
-  }
+
 
   .cover_content h1 strong {
     font-size: 3.5em;

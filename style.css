@@ -62,12 +62,25 @@ p{
   background-size:cover
   }
 
-  50% {
+  20% {
     background:url(img/house.jpg);
   background-size:cover
   }
 
-  100% {
+40% {
+    background:url(img/trail.jpg);
+  background-size:cover
+  }
+  60% {
+    background:url(img/cover.jpg);
+  background-size:cover
+  }
+80% {
+    background:url(img/house.jpg);
+  background-size:cover
+  }
+
+100% {
     background:url(img/trail.jpg);
   background-size:cover
   }

@@ -52,7 +52,7 @@ p{
 .s1 {
   background-color: black;
   background: url(img/cover.jpg);
-  animation:chbg 15s infinite alternate;
+  animation:chbg 10s infinite;
   background-size: cover;
 }
 
@@ -63,19 +63,10 @@ p{
   }
 
   20% {
-    background:url(img/house.jpg);
-  background-size:cover
-  }
-
-40% {
-    background:url(img/trail.jpg);
-  background-size:cover
-  }
-  60% {
     background:url(img/cover.jpg);
   background-size:cover
   }
-80% {
+50% {
     background:url(img/house.jpg);
   background-size:cover
   }
@@ -84,35 +75,13 @@ p{
     background:url(img/trail.jpg);
   background-size:cover
   }
-}
-/* .s2 {
-  background: url(img/threeMiner.jpg);
-  background-size: cover;
-      background-position: center;
-}
-
-.s3 {
-  background-color: black;
-  background: url(img/threeMiner.jpg);
-  background-size: cover;
-      background-position: center;
-}
-
-.s4 {
-  background-color: black;
-  background: url(img/cover1.jpg);
-    background-repeat: no-repeat;
-  background-size: 100% auto;
-      background-position: center;
+  /* 100% {
+      background:url(img/cover.jpg);
+    background-size:cover
+    } */
 
 }
-.s5 {
-  background-color: black;
-  background: url(img/vertical.jpg);
-    background-repeat: no-repeat;
-  background-size: auto 100%;
 
-} */
 .s8 {
   background-color: black;
   background-size: cover;
@@ -711,6 +680,7 @@ pre code {
 }
 
 .container {
+
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -6610,7 +6580,7 @@ article p a {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   font-weight: 300;
-  font-size: 1.25em
+  /* font-size: 1.25em */
 }
 
 .caption {
@@ -7019,26 +6989,42 @@ section {
     font-size: 14px
   }
 
-  article p {
+  section p {
     font-size: 14px
   }
 
-
+  .credit_content p{
+    font-size: 12px;
+  }
   .cover_dek{
 
     font-size: 20px;
 
   }
 
+.credit_content{
+  padding-left: 5%;
+  padding-right: 5%;
 
+  font-size
+}
   .cover_content {
     margin-top: -4em;
     padding-left: 3%;
     padding-right: 3%;
   }
-
-
-
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+section p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* .row--footer{
+  margin-left: -4.4%;
+  margin-right: -4.4%;
+} */
 
 
 }
@@ -7055,11 +7041,15 @@ section {
     line-height: 1.8
   }
 
-  article p {
-    font-size: 18px
+
+
+  section p {
+    font-size: 14px
   }
 
-
+  .credit_content p{
+    font-size: 18px;
+  }
 
   .cover_content h1 strong {
     font-size: 3.5em;
@@ -7081,7 +7071,7 @@ section {
   .byline,
   .time {
     font-size: 20px;
-  
+    line-height: 1.1;
   }
   .section_text div h2 {
     font-size: 2em;
@@ -7367,4 +7357,10 @@ figcaption{
 }
 html{
   width:100%;
+}
+
+.fullwidth-footer{
+
+  margin-left:150px;
+
 }

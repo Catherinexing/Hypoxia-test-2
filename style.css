@@ -7010,7 +7010,7 @@ section {
 
 @media (min-width:68.5rem) {
   .footer__header {
-    flex-basis: 156px
+    flex-basis: 156pxs
   }
 }
 
@@ -7027,6 +7027,19 @@ section {
     padding: 0 10px
   }
 }
+
+  .cover_content {
+    margin-top: -4em;
+    padding-left: 3%;
+    padding-right: 3%;
+
+  }
+
+  .cover_content h1 strong {
+    font-size: 3.5em;
+    line-height: .9
+
+  }
 
   .cover_content {
     margin-top: -4em;

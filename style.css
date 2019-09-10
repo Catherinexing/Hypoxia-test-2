@@ -6992,7 +6992,12 @@ section {
   section p {
     font-size: 14px
   }
+  .start-text{
+    font-weight: 1200px;
+    font-size: 20px;
+    text-transform: uppercase;
 
+  }
   .credit_content p{
     font-size: 12px;
   }
@@ -7042,7 +7047,12 @@ section p{
   article {
     line-height: 1.8
   }
+  .start-text{
+    font-weight: 1200px;
+    font-size: 25px;
+    text-transform: uppercase;
 
+  }
 
 
   section p {
@@ -7301,12 +7311,7 @@ height: auto;
 }
 
 
-.start-text{
-  font-weight: 1200px;
-  font-size: 25px;
-  text-transform: uppercase;
 
-}
 
 #first-para :first-child{
   margin-top: 45px;

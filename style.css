@@ -54,6 +54,7 @@ p{
   background: url(img/cover.jpg);
   animation:chbg 10s infinite;
   background-size: cover;
+  background-position: center;
 }
 
 @keyframes chbg {

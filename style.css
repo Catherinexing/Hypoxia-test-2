@@ -7001,7 +7001,9 @@ section {
     font-size: 20px;
 
   }
-
+.cover_content h1 strong{
+  font-size: 60px;
+}
 .credit_content{
   padding-left: 5%;
   padding-right: 5%;

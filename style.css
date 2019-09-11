@@ -6993,15 +6993,15 @@ section {
   }
   .cover_content {
     position: relative;
-    top: 100%;
+
     width: 100%;
-    margin-top: -1em;
+    margin-top: 0;
     padding-left: 3%;
     padding-right: 3%;
-    margin-bottom: -5em;
+  
     text-align: center;
     color: white;
-    margin-bottom:2em;
+    margin-bottom:1em;
 
   }
   section p {
@@ -7044,6 +7044,7 @@ text-shadow: none;
   font-size: 60px;
   text-shadow: none;
   color: black;
+
 }
 .credit_content{
   padding-left: 5%;
@@ -7051,7 +7052,10 @@ text-shadow: none;
 
 
 }
-
+.time{
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
   section {
     padding-left: 0;
     padding-right: 0;
@@ -7102,7 +7106,7 @@ top:15%
   }
 
   .cover_content h1 strong {
-    font-size: 50px;
+    font-size: 120px;
     line-height: .9
 
   }

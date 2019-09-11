@@ -7006,6 +7006,10 @@ section {
     font-size: 14px;
 
   }
+
+  .copyright-statement{
+  margin-top: 5%;
+  }
 .byline {
   color:black;
   text-shadow: none;

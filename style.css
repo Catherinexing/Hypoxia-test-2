@@ -15,12 +15,7 @@ body {
 }
 
 
-/* .img-twotoghter{
-  display: inline-block;
-  width:50%;
-  position: relative;
-  float:left;
-} */
+
 header {
   width: 100%;
   background-color: #42403c;
@@ -207,9 +202,9 @@ left:50%;
     page-break-inside: avoid
   }
 
-  img {
+  /* img {
     max-width: 100% !important
-  }
+  } */
 
   h2, h3, p {
     orphans: 3;
@@ -6736,10 +6731,6 @@ section {
   color: white;
 }
 
-.intro {
-  background-image: url(img/starfield.jpg);
-  background-size: cover;
-}
 
 .section_text {
   height: 100%;
@@ -7075,7 +7066,7 @@ section p{
 .addthis_inline_share_toolbox_h50m{
 top:15%
 }
-
+}
 
 @media (min-width:768px) {
   section {
@@ -7095,7 +7086,7 @@ top:15%
     text-transform: uppercase;
 
   }
-.
+
 
   section p {
     font-size: 16px
@@ -7277,6 +7268,10 @@ top:15%
   }
 }
 
+
+
+
+
 .copy-right{
 
   display:inline-block;
@@ -7322,24 +7317,7 @@ background-color: #fbe550;
   /* color: white; */
 }
 
-.img-two-left{
-  display: inline-block;
-  height:auto;
-  width:30.6%;
-margin-right:0.2%;
-  /* position: relative; */
-  overflow: hidden;
-  float:left;
-}
-.img-two-right{
-  display: inline-block;
-  height:auto;
-  width:69%;
-margin-left:0.2%;
-  /* position: relative; */
-  overflow: hidden;
-  float:right;
-}
+
 .img-fullpage{
   height: auto;
   width:100%;
@@ -7387,12 +7365,7 @@ margin-bottom: 20px !important;
 /* p:first-child {
   margin-top: 25px;;
 } */
-.img-left{
-  margin-right: 0.2%;
-}
-.img-right{
-  margin-left: 0.2%;
-}
+
 
 .para-sep{
   margin-top: 20px;
@@ -7420,3 +7393,35 @@ html{
 /* #link-shadow{
   text-shadow: 1px 1px #999999;
 } */
+.img-twotoghter{
+  padding: 0;
+  margin: 0;
+  width:49.8%;
+  display: inline-block;
+  float: left;
+  /* padding: 2% */
+}
+.img-left{
+  margin-right: 0.2%;
+}
+.img-right{
+  margin-left: 0.2%;
+}
+.img-two-left{
+  display: inline-block;
+  height:auto;
+  width:30.6%;
+margin-right:0.2%;
+  /* position: relative; */
+  overflow: hidden;
+  float:left;
+}
+.img-two-right{
+  display: inline-block;
+  height:auto;
+  width:69%;
+margin-left:0.2%;
+  /* position: relative; */
+  overflow: hidden;
+  float:right;
+}

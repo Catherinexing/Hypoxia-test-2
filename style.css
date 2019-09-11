@@ -6307,7 +6307,7 @@ button.close {
 }
 
 .navbar.navbar-default {
-  background-color: transparent;
+  background-color: black;
   min-height: 1.25rem;
   max-height: 40px;
   border-bottom: none;
@@ -7053,9 +7053,9 @@ section p{
 #link-shadow{
   text-shadow: none;
 }
-
+.addthis_inline_share_toolbox_h50m{
+top:15%
 }
-
 
 
 @media (min-width:768px) {

@@ -6998,7 +6998,7 @@ section {
     margin-top: 0;
     padding-left: 3%;
     padding-right: 3%;
-  
+
     text-align: center;
     color: white;
     margin-bottom:1em;
@@ -7095,7 +7095,10 @@ top:15%
     text-transform: uppercase;
 
   }
-
+.cover_content{
+  padding-left: 5%;
+  padding-right: 5%
+}
 
   section p {
     font-size: 16px

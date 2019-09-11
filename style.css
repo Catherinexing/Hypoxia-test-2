@@ -6504,6 +6504,7 @@ article p a {
   text-shadow: 2px 2px #aaaaaa;
   font-weight: 700;
   margin-top: 0;
+  font-size: 120px;
 
 }
 
@@ -6522,7 +6523,7 @@ article p a {
 
 .byline {
   text-align: center;
-  /* font-size: 20px; */
+  font-size: 20px;
     text-shadow: 1px 1px #999999;
   -webkit-margin-after: 0;
   margin-top: 1em
@@ -6546,7 +6547,7 @@ article p a {
 .time {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-
+  font-size: 20px;
   line-height: 1;
   text-shadow: 1px 1px #999999;
 }
@@ -6554,7 +6555,7 @@ article p a {
 .cover_dek {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
-  /* font-size: 26px; */
+  font-size: 26px;
   line-height: 1.2;
   margin: 0;
   padding: 0;
@@ -7101,7 +7102,7 @@ top:15%
   }
 
   .cover_content h1 strong {
-    font-size: 5.5em;
+    font-size: 50px;
     line-height: .9
 
   }
@@ -7154,13 +7155,13 @@ top:15%
     line-height: 1.8
   }
 
-  .cover_content h1 {
+  /* .cover_content h1 {
     font-size: 3em
   }
 
   .cover_content h1 strong {
     font-size:5.2em
-  }
+  } */
 
   .cover_content {
     margin-top: -5em
@@ -7244,13 +7245,13 @@ top:15%
     width: 83.3%
   }
 
-  .cover_content h1 {
+  /* .cover_content h1 {
     font-size: 3.5em
   }
 
   .cover_content h1 strong {
     font-size: 3.5em
-  }
+  } */
 
   .cover_content {
     margin-top: -6.5em

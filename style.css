@@ -7006,6 +7006,10 @@ section {
     font-size: 14px;
 
   }
+.byline {
+  color:black;
+  text-shadow: none;
+}
   .start-text{
     font-weight: 1200px;
     font-size: 20px;
@@ -7046,6 +7050,9 @@ section p{
   margin-right: -4.4%;
 } */
 
+#link-shadow{
+  text-shadow: none;
+}
 
 }
 
@@ -7055,6 +7062,9 @@ section p{
   section {
     padding-left: 0;
     padding-right: 0
+  }
+  #link-shadow{
+    text-shadow: 1px 1px #999999;
   }
 
   article {
@@ -7388,6 +7398,6 @@ html{
   margin-left:150px;
 
 }
-#link-shadow{
+/* #link-shadow{
   text-shadow: 1px 1px #999999;
-}
+} */

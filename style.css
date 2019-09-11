@@ -7262,11 +7262,12 @@ margin-left: 35%;
 /* .s4{
   height: 900px;
 } */
-/* .quote{
-  font-size: 25px;
-  color:orange;
-  font-weight: 900;
-} */
+.quote{
+  /* font-size: 25px; */
+  /* color:orange; */
+  /* font-weight: 900; */
+background-color: #fbe550;
+}
 .text-above-img{
   position: absolute;
   top: 50%;

@@ -7376,6 +7376,8 @@ figcaption{
  color:grey;
  display: inline-block;
  margin: 5px auto 0 auto;
+ padding-left:5%;
+ padding-right: 5%;
 }
 
 .caption-center{

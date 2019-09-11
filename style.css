@@ -7000,6 +7000,7 @@ section {
     margin-bottom: -5em;
     text-align: center;
     color: white;
+    margin-bottom:2em;
 
   }
   section p {
@@ -7010,24 +7011,33 @@ section {
   .copyright-statement{
   margin-top: 5%;
   }
-.byline {
-  color:black;
-  text-shadow: none;
-}
+
   .start-text{
     font-weight: 1200px;
     font-size: 20px;
     text-transform: uppercase;
 
   }
+
   .credit_content p{
     font-size: 12px;
     text-shadow: none;
   }
+
   .cover_dek{
 text-shadow: none;
     font-size: 20px;
   color: black;
+  }
+  .byline {
+    color:black;
+    font-size: 14px;
+    text-shadow: none;
+  }
+  .time{
+    color: black;
+    font-size: 14px;
+  text-shadow: none;
   }
 .cover_content h1 strong{
   font-size: 60px;
@@ -7091,7 +7101,7 @@ top:15%
   }
 
   .cover_content h1 strong {
-    font-size: 3.5em;
+    font-size: 5.5em;
     line-height: .9
 
   }
@@ -7149,7 +7159,7 @@ top:15%
   }
 
   .cover_content h1 strong {
-    font-size: 3.2em
+    font-size:5.2em
   }
 
   .cover_content {

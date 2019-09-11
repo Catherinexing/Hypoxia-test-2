@@ -6683,8 +6683,8 @@ article figure {
 
 section {
 
-  padding-left: 25px;
-  padding-right: 25px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
   /* overflow: hidden; */
   background-color: white;
 }
@@ -7095,10 +7095,7 @@ top:15%
     text-transform: uppercase;
 
   }
-.cover_content{
-  padding-left: 5%;
-  padding-right: 5%
-}
+.
 
   section p {
     font-size: 16px

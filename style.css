@@ -6548,7 +6548,7 @@ article p a {
   -webkit-margin-after: 0;
 
   line-height: 1;
-    text-shadow: 2px 2px grey;
+  text-shadow: 1px 1px #999999;
 }
 
 .cover_dek {

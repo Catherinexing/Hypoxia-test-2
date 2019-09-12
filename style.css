@@ -7031,11 +7031,19 @@ text-shadow: none;
     font-size: 14px;
   text-shadow: none;
   }
+.cover_content h1{
+  font-size: 50px;
+
+  padding: 20px 0;
+  color:black;
+  text-shadow: none;
+}
 .cover_content h1 strong{
   font-size: 50px;
-  text-shadow: none;
-  color: black;
 
+  /* padding: 10px 0; */
+  color:black;
+  text-shadow: none;
 }
 .credit_content{
   padding-left: 5%;
@@ -7430,4 +7438,13 @@ margin-left:0.2%;
 
 .link-text{
   color:#37588a;
+}
+#credit-nomarginbottom {
+  margin-bottom: 0;
+}
+
+.copyright-statement{
+  padding-left:  0;
+  padding-right: 0;
+  padding-top: 2%;
 }
